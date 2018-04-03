@@ -1,12 +1,23 @@
 include ../partials/menu.pug
 include ../partials/header.pug
 
-<div class="index__top"></div>
-<section class="index__main">
-  <h1 class="index__mainTitle">Unstable Unicorns: Le jeu de cartes qui détruira toutes vos amitiés.</h1>
-  <img class="index__mainImg" src="img/ban.jpg" alt="cards">
-  <a class="index__mainLink" href="game.pug">Le jeu</a>
-  <a class="index__mainLink" href="https://www.kickstarter.com/projects/ramybadie/unstable-unicorns?lang=fr">Soutenir le projet</a>
+<section class="home" id="home">
+  <div class="home__top"></div>
+  <section class="home__main">
+    <h1 class="home__mainTitle">Unstable Unicorns: Le jeu de cartes qui détruira toutes vos amitiés.</h1>
+    <img class="home__mainImg" src="img/ban.jpg" alt="cards">
+    <a class="home__mainLink" href="game.pug">Le jeu</a>
+    <a class="home__mainLink" href="https://www.kickstarter.com/projects/ramybadie/unstable-unicorns?lang=fr">Soutenir le projet</a>
+  </section>
+</section>
+<section class="game" id="game">
+  <h2 class="game__title">Le jeu</h2>
+  <div class="game__presentation">
+    <h3 class="game__presentationCatchphrase">Trahissez vos amis. Désormais, seules les licornes sont vos amies.</h3>
+    <p class="game__presentationParag">Il y a deux choses que tout le monde adore : les licornes et la destruction. Unstable Unicorns est un jeu de cartes stratégique qui fusionne ces deux éléments. Ses illustrations aussi trash qu'adorables et son gameplay élaboré vous feront vivre une expérience magique... et particulièrement destructrice.
+    </p>
+  </div>
+  <img class="game__Img" src="img/unicorn-gif.gif" alt="gif">
 </section>
 
 include ../partials/footer.pug
