@@ -5,7 +5,7 @@ include ../partials/header.pug
   <div class="home__top"></div>
   <section class="home__main">
     <h1 class="home__mainTitle">Unstable Unicorns: Le jeu de cartes qui détruira toutes vos amitiés.</h1>
-    <img class="home__mainImg" src="img/ban.jpg" alt="cards">
+    <div class="home__mainImg"></div>
     <a class="home__mainLink" href="game.pug">Le jeu</a>
     <a class="home__mainLink" href="https://www.kickstarter.com/projects/ramybadie/unstable-unicorns?lang=fr">Soutenir le projet</a>
   </section>
@@ -19,14 +19,30 @@ include ../partials/header.pug
     <p class="game__presentationParag">
     </p>
   </div>
-  <img class="game__Img" src="img/unicorn-gif.gif" alt="gif">
+  <div class="game__img"></div>
 </section>
 <section class="rules" id="rules">
   <h2 class="rules__title">Les règles</h2>
   <h3 class="rules__part">Dans quoi je m'embarque ?</h3>
   <p class="rule__partParag">Vous démarrez avec un bébé licorne dans votre écurie, puis vous pourrez vous lancer dans la construction de votre armée. Chaque licorne magique a un pouvoir spécial, mais ne sous-estimez pas le puvoir des licornes ordinaires ! Utilisez bonus et malus pour protéger et construire votre écurie (ou bien pour attaquer les autres joueurs MUAHAHAHA). Les cartes "Instant" empêchent les autres joueurs de poser une carte ; elles seront donc vos meilleures amies... ou vos pire ennemies. Le premier à compléter son armée de licornes gagne !</p>
+  <div class="rules__imgBegin"></div>
   <h3 class="rules__part">Mise en place</h3>
   <p class="rule__partParag">Réunissez toutes les cartes de bébés licornes et placez-en une dans l'écurie de chaque joueur. Placez le reste de ces cartes dans une pile : ce sera votre nurserie. Mélangez les cartes restantes et distribuez-en 5 à chaque joueur. Le reste du tas forme la pioche.</p>
+  <h3 class="rules__part">Qui commence ?</h3>
+  <p class="rule__partParag">LA personne qui porte le plus de couleurs, évidemment.</p>
+  <h3 class="rules__part">Les types de cartes</h3>
+  <div class="rules__partImgCardType"></div>
+  <h3 class="rules__part">Et pendant mon tour, je fais quoi ?</h3>
+  <p class="rule__partParag">Tournez dans le sens des aiguilles d'une montre. Chaque tour comporte 4 phases :</p>
+  <ul class="rule__partList">
+    <li class="rule__partListItem">Début du tour : Si l'une de vos carte doit être jouée au début d'un tour, vous pouvez la jouer. Si vous oubliez de l'utiliser avant de piocher, vous perdez son effet.</li>
+    <li class="rule__partListItem">Pioche : Piochez une carte.</li>
+    <li class="rule__partListItem">Action : Jouez une carte de votre main ou piochez-en une supplémentaire.</li>
+    <li class="rule__partListItem">Fin du tour : Si vous avez plus de 7 cartes en main, débarassez-vous de celles en trop.</li>
+  </ul>
+  <h3 class="rules__part">Comment gagner ?</h3>
+  <p class="rule__partParag">La première personne à posséder 7 licornes dans son écurie gagne ! Elle et son armée sont les dirigeants légitimes du monde magique. Tout le monde doit s'incliner devant eux !</p>
+  <div class="rule__imgEnd"></div>
 </section>
 
 include ../partials/footer.pug
