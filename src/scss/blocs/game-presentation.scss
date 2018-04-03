@@ -1,0 +1,31 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game__title {
+  font-family: casual;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+}
+
+.game__presentation, .rules{
+  background-color: rgba(255,255,255,0.7);
+  padding: 2vh;
+  text-align: justify;
+  width: 95%;
+  font-family: casual;
+  color: rgb(150,150,150);
+  @include medium {
+    width: 75%;
+  }
+  @include large {
+    width: 60%;
+  }
+  h2 {
+    color: rgb(100,100,100);
+  }
+}
