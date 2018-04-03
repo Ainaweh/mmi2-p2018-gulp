@@ -1,0 +1,48 @@
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: cat;
+  h1 {
+    font-family: casual;
+    font-size: 2rem;
+    color: rgb(100,100,100);
+    @include medium {
+      font-size: 2.3rem;
+    }
+    @include large {
+      font-size: 3rem;
+    }
+  }
+}
+
+.home__top {
+  height: 45vh;
+  width: 100%;
+  background-image: url('../img/ban-small.jpg');
+  background-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  @include medium {
+    background-image: url('../img/ban-medium.jpg');
+  }
+  @include large {
+    background-image: url('../img/ban-large.jpg');
+  }
+}
+
+.home__mainList {
+  font-size: 1.3rem;
+  li {
+    list-style-type: none;
+    background-color: white;
+    padding: 1vh;
+  }
+  @include medium {
+    font-size: 1.7rem;
+  }
+  inlude large {
+    font-size: 2rem;
+  }
+}
