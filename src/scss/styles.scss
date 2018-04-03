@@ -1,16 +1,12 @@
+@import 'medias'
+@import 'fonts'
 @import 'blocs/header';
 @import 'blocs/footer';
+@import 'blocs/home';
+@import 'blocs/game-presentation';
+@import 'blocs/game-rules';
+@import 'blocs/menu';
 
-@font-face {
- font-family: "Roboto";
- src: url("../fonts/Roboto-Regular.ttf") format("truetype");
-}
-
-h1 {
-  color: brown;
-  font-family: "Roboto", Arial;
-
-  &:hover {
-    color: green;
-  }
+* {
+  box-sizing: border-box;
 }
